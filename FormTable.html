@@ -8,6 +8,7 @@
   </head>
   <body>
       <div>
+          <!--Form to enter name and email-->
           <form>
             <label for="fname" > First Name</label>
             <input type="text" id=" fname" name="fname" placeholder="Enter First Name" required> 
@@ -15,7 +16,7 @@
             <input type="text" id=" lname" name="lname" placeholder="Enter Last Name" required>
             <label for="emailaddress">Email</label>
             <input type="email" id="emailaddress" placeholder="Enter Email" required>   
-          
+          <!--Multiple answer question-->
           <fieldset>
               <legend> What is your programming experience? </legend>
                   <input type="radio" id="Beginner" name="radAns" required/>
@@ -25,10 +26,32 @@
                   <input type="radio" id="Expert" name="radAns"/>
                   <label for="Expert">Expert</label>
           </fieldset>
+          <!--field for career-->
           <label for="descar">Desired Career</label>
           <input type="text" id="descar" name="descar" placeholder="I.e Web Developer" required>
           <button>Submit</button>
         </form>
+        <hr>
+        <!--Table exercise -->
+        <table>
+            <colgroup>
+                <col span="2" >
+            </colgroup>
+            <thead>
+                <tr>
+                    <th> First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> Zachary </td>
+                    <td>Webb</td>
+                    <td>zachsavn@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
       </div>
   </body>
 </html>
